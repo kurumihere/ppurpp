@@ -1,0 +1,19 @@
+[global]
+    frame_color = "#814F9E"
+
+[urgency_low]
+    background = "#2C2C3B"
+    foreground = "#8985A1"
+    highlight = "#713A91"
+
+[urgency_normal]
+    background = "#2C2C3B"
+    foreground = "#D0D0D9"
+    highlight = "#713A91"
+
+[urgency_critical]
+    background = "#2C2C3B"
+    foreground = "#D0D0D9"
+    frame_color = "#DD3962"
+    highlight = "#DD3962"
+

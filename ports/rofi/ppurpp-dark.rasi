@@ -1,0 +1,47 @@
+* {
+    background: #2C2C3B;
+    background-alt: #343445;
+    foreground: #D0D0D9;
+    muted: #646078;
+    border: #814F9E;
+    selected: #8A7CF8;
+    urgent: #DD3962;
+
+    background-color: @background;
+    text-color: @foreground;
+    font: "JetBrainsMono Nerd Font 10";
+}
+
+window {
+    width: 360px;
+    border: 1px;
+    border-color: @border;
+}
+
+mainbox {
+    padding: 6px;
+}
+
+element {
+    padding: 4px 6px;
+}
+
+inputbar {
+    background-color: @background-alt;
+}
+
+entry {
+    placeholder-color: @muted;
+}
+
+element selected {
+    background-color: transparent;
+    text-color: @foreground;
+    border: 1px;
+    border-color: @selected;
+}
+
+element urgent {
+    text-color: @urgent;
+}
+

@@ -1,0 +1,28 @@
+{
+  "name": "ppurpp light",
+  "variant": "light",
+  "colors": {
+    "background": "#F5F6FA",
+    "background_alt": "#E7E9F2",
+    "foreground": "#20202A",
+    "muted": "#6F6B84",
+    "disabled": "#9B97AD",
+    "accent": "#7A4DA3",
+    "accent_alt": "#8A62B3",
+    "selected": "#6C5CE7",
+    "urgent": "#C72C52",
+    "blue": "#315FBD",
+    "green": "#1F8A55",
+    "yellow": "#A38A00",
+    "cyan": "#238C8C",
+    "cursor": "#20202A",
+    "bright_red": "#A82443",
+    "bright_green": "#187343",
+    "bright_yellow": "#7A6500",
+    "bright_blue": "#244D9A",
+    "bright_magenta": "#65418A",
+    "bright_cyan": "#1B7070",
+    "bright_white": "#20202A"
+  }
+}
+
