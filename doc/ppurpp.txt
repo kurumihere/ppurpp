@@ -4,7 +4,19 @@ ppurpp is a purple colorscheme for Vim and Neovim.
 
 INSTALLING                                                        *ppurpp-install*
 
-Use your plugin manager:
+Plugin managers:
+
+>
+  vim.pack.add({ "https://github.com/kurumihere/ppurpp" })
+<
+
+>
+  { "kurumihere/ppurpp", priority = 1000, config = true, opts = {} }
+<
+
+>
+  use { "kurumihere/ppurpp" }
+<
 
 >
   Plug 'kurumihere/ppurpp'

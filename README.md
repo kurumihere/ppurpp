@@ -4,7 +4,27 @@ Purple colorscheme for Vim and Neovim.
 
 ## Install
 
-Use any plugin manager and load `ppurpp` like a normal colorscheme.
+- `vim.pack`
+```lua
+vim.pack.add({ "https://github.com/kurumihere/ppurpp" })
+require("ppurpp").setup()
+vim.cmd.colorscheme("ppurpp")
+```
+
+- `lazy.nvim`
+```lua
+{ "kurumihere/ppurpp", priority = 1000, config = true, opts = {} }
+```
+
+- `packer`
+```lua
+use { "kurumihere/ppurpp" }
+```
+
+- `vim-plug`
+```vim
+Plug 'kurumihere/ppurpp'
+```
 
 ## Setup
 
