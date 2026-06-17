@@ -1,0 +1,44 @@
+*ppurpp.txt*  ppurpp colorscheme
+
+ppurpp is a purple colorscheme for Vim and Neovim.
+
+INSTALLING                                                        *ppurpp-install*
+
+Use your plugin manager:
+
+>
+  Plug 'kurumihere/ppurpp'
+<
+
+After installation:
+
+>
+  colorscheme ppurpp
+<
+
+NEOVIM CONFIGURATION                                            *ppurpp-config*
+
+>
+  require("ppurpp").setup({
+    italic = {
+      comments = true,
+      strings = true,
+      emphasis = true,
+      folds = true,
+      operators = false,
+    },
+    transparent_mode = false,
+  })
+  vim.cmd.colorscheme("ppurpp")
+<
+
+VIM CONFIGURATION                                               *ppurpp-vim*
+
+Set globals before loading the colorscheme:
+
+>
+  let g:ppurpp_italic_comments = 1
+  let g:ppurpp_italic_strings = 1
+  let g:ppurpp_transparent_mode = 0
+  colorscheme ppurpp
+<
