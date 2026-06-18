@@ -1,6 +1,6 @@
 # ppurpp
 
-Purple colorscheme for Vim and Neovim.
+My personal colorscheme for vim/neovim and more.
 
 ## Install
 
