@@ -1,19 +1,18 @@
 [global]
-    frame_color = "#8A62B3"
+    frame_color = "#98c379"
 
 [urgency_low]
-    background = "#F5F6FA"
-    foreground = "#6F6B84"
-    highlight = "#7A4DA3"
+    background = "#ffffff"
+    foreground = "#939aa6"
+    highlight = "#fb7385"
 
 [urgency_normal]
-    background = "#F5F6FA"
-    foreground = "#20202A"
-    highlight = "#7A4DA3"
+    background = "#ffffff"
+    foreground = "#383a3f"
+    highlight = "#fb7385"
 
 [urgency_critical]
-    background = "#F5F6FA"
-    foreground = "#20202A"
-    frame_color = "#C72C52"
-    highlight = "#C72C52"
-
+    background = "#ffffff"
+    foreground = "#383a3f"
+    frame_color = "#ff4e4e"
+    highlight = "#ff4e4e"

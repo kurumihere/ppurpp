@@ -5,7 +5,7 @@ My personal colorscheme for vim/neovim and more.
 ## Install
 
 <details open>
-<summary><code>vim.pack</code></summary>
+<summary>vim.pack<summary>
 
 ```lua
 vim.pack.add({ "https://github.com/kurumihere/ppurpp" })
@@ -16,7 +16,7 @@ vim.cmd.colorscheme("ppurpp")
 </details>
 
 <details>
-<summary><code>lazy.nvim</code></summary>
+<summary>lazy.nvim</summary>
 
 ```lua
 { "kurumihere/ppurpp", priority = 1000, config = true, opts = {} }
@@ -25,7 +25,7 @@ vim.cmd.colorscheme("ppurpp")
 </details>
 
 <details>
-<summary><code>packer</code></summary>
+<summary>packer</summary>
 
 ```lua
 use { "kurumihere/ppurpp" }
@@ -34,7 +34,7 @@ use { "kurumihere/ppurpp" }
 </details>
 
 <details>
-<summary><code>vim-plug</code></summary>
+<summary>vim-plug</summary>
 
 ```vim
 Plug 'kurumihere/ppurpp'
@@ -81,13 +81,3 @@ colorscheme ppurpp
 - `rofi`
 
 </details>
-
-## Options
-
-- `transparent_mode`
-- `contrast`
-- `italic.comments`
-- `italic.strings`
-- `italic.emphasis`
-- `italic.folds`
-- `italic.operators`

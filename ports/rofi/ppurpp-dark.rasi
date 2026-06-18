@@ -1,11 +1,11 @@
 * {
-    background: #2C2C3B;
-    background-alt: #343445;
-    foreground: #D0D0D9;
-    muted: #646078;
-    border: #814F9E;
-    selected: #8A7CF8;
-    urgent: #DD3962;
+    background: #20202a;
+    background-alt: #22222e;
+    foreground: #abb2bf;
+    muted: #495162;
+    border: #98c379;
+    selected: #40375e;
+    urgent: #ff4e4e;
 
     background-color: @background;
     text-color: @foreground;
@@ -44,4 +44,3 @@ element selected {
 element urgent {
     text-color: @urgent;
 }
-
