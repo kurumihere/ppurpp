@@ -2,6 +2,14 @@
 
 My personal colorscheme for vim/neovim and more.
 
+<details open>
+<summary>screenshots</summary>
+
+![light](./screenshots/light.png)
+![dark](./screenshots/dark.png)
+
+</details>
+
 ## Install
 
 <details open>
@@ -12,6 +20,8 @@ vim.pack.add({ "https://github.com/kurumihere/ppurpp" })
 require("ppurpp").setup()
 vim.cmd.colorscheme("ppurpp")
 ```
+
+</details>
 
 <details>
 <summary>lazy.nvim</summary>
