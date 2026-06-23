@@ -5,7 +5,7 @@ My personal colorscheme for vim/neovim and more.
 ## Install
 
 <details open>
-<summary>vim.pack<summary>
+<summary>vim.pack</summary>
 
 ```lua
 vim.pack.add({ "https://github.com/kurumihere/ppurpp" })
