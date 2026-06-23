@@ -13,8 +13,6 @@ require("ppurpp").setup()
 vim.cmd.colorscheme("ppurpp")
 ```
 
-</details>
-
 <details>
 <summary>lazy.nvim</summary>
 
