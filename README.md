@@ -50,6 +50,35 @@ Plug 'kurumihere/ppurpp'
 
 </details>
 
+<details>
+<summary>emacs</summary>
+
+Copy `ports/emacs/ppurpp-theme.el` to a local directory (e.g., `~/.emacs.local/`), then add it to your `custom-theme-load-path` in your config (e.g., `~/.emacs`):
+
+```elisp
+(add-to-list 'custom-theme-load-path (expand-file-name "~/.emacs.local/"))
+(load-theme 'ppurpp t)
+```
+
+</details>
+
+<details>
+<summary>cmus</summary>
+
+Copy `ports/cmus/ppurpp.theme` to your `cmus` configuration directory (usually `~/.config/cmus/`):
+
+```bash
+cp ports/cmus/ppurpp.theme ~/.config/cmus/
+```
+
+Then in `cmus` type:
+
+```text
+:colorscheme ppurpp
+```
+
+</details>
+
 ## Setup
 
 ```lua
@@ -83,6 +112,7 @@ colorscheme ppurpp
 <summary>Desktop ports</summary>
 
 - `alacritty`
+- `cmus`
 - `dunst`
 - `i3`
 - `polybar`
